@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Blank Template",
-    "slug": "expo-rnHooks",
+    "slug": "expo-react-native",
     "privacy": "public",
     "sdkVersion": "36.0.0",
     "platforms": [
