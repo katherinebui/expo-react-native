@@ -1,7 +1,7 @@
 import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
 import ViewNotes from '../screens/ViewNotes';
-import AddNotes from '../screens/AddNotes';
+import AddNote from '../screens/AddNote';
 
 // https://reactnavigation.org/docs/getting-started/
 // In a web browser, you can link to different pages using an anchor (<a>) tag.
@@ -14,8 +14,8 @@ const StackNavigator = createStackNavigator(
     ViewNotes: {
       screen: ViewNotes
     },
-    AddNotes: {
-      screen: AddNotes
+    AddNote: {
+      screen: AddNote
     }
   },
   {
